@@ -5,6 +5,7 @@ Fortinte-Themed New Year Countdown Timer
 ## Description
 
 The main purspose for this project was is to test my JavaScript skills in creating simple yet useful and fun app.
+P.S. THIS PROJECT MAY NOT BE FULLY OPTIMISED ON ALL BROWSERS EXCEPT FOR CHROME - THE MP3 PLAYER
 
 ## Getting Started
 
