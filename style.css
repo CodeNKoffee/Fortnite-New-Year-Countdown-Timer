@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bigelow Rules", cursive;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assests/winterfest.0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img__wrapper {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.music-cover {
+  width: 100px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+#festive {
+  width: 100%;
+  background: #f2f3f5;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.countdown__header {
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: bold;
+  margin: 16px 0;
+  padding: 4px;
+  font-size: 80px;
+  transition: all 250ms ease;
+  text-shadow: 6px 2px #242424, 5px 2px #242424, 4px 2px #242424, 6px 4px gold,
+    5px 2px gold, 4px 2px gold, 3px 2px rgba(255, 217, 0, 0.63),
+    2px 2px rgba(255, 217, 0, 0.534);
+}
+
+.countdown__header:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(255, 251, 0), 6px 2px #242424, 5px 2px #242424,
+    4px 2px #242424, 6px 4px rgb(255, 251, 0), 5px 2px rgb(255, 251, 0),
+    4px 2px rgb(255, 251, 0), 3px 2px rgba(255, 217, 0, 0.63),
+    2px 2px rgba(255, 217, 0, 0.534);
+}
+
+.countdown__header:active {
+  transform: scale(0.9);
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(255, 251, 0), 6px 2px #242424, 5px 2px #242424,
+    4px 2px #242424, 6px 4px rgb(255, 251, 0), 5px 2px rgb(255, 251, 0),
+    4px 2px rgb(255, 251, 0), 3px 2px rgba(255, 217, 0, 0.63),
+    2px 2px rgba(255, 217, 0, 0.534);
+}
+
+.countdown__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.countdown {
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 16px;
+  padding: 8px;
+}
+
+.time {
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 250ms ease;
+  text-shadow: 3.5px 2px #242424, 3px 2px #242424, 5px 2px gold,
+    6px 2px rgba(255, 217, 0, 0.534);
+}
+
+.time:hover {
+  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  text-shadow: 3.5px 2px #242424, 3px 2px #242424, 4px 2px gold,
+    5px 2px rgba(255, 217, 0, 0.534);
+}
+
+.time:active {
+  transform: scale(0.95);
+  color: rgb(255, 255, 255);
+  text-shadow: 3.5px 2px #242424, 3px 2px #242424, 4px 2px gold,
+    5px 2px rgba(255, 217, 0, 0.534);
+}
+
+@media (max-width: 768px) {
+  .countdown__header {
+    font-size: 50px;
+    margin: 16px 0;
+    padding: 4px;
+  }
+
+  .countdown {
+    font-size: 25px;
+    margin: 4px;
+    padding: 4px;
+  }
+}
+
+@media (max-width: 478px) {
+  .countdown__header {
+    font-size: 50px;
+    margin: 16px 0;
+    padding: 2px;
+  }
+
+  .countdown {
+    font-size: 30px;
+    margin: 2px;
+    padding: 2px;
+  }
+  .time {
+    text-shadow: 3.5px 2px #242424, 4.5px 2px gold, 6px 2px #242424,
+      1px 2px #242424;
+  }
+}

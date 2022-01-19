@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Year's Countdown | Let's Celebrate the Holidays Together</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-music">
+      <figure class="img__wrapper">
+        <img
+          src="https://media.fortniteapi.io/images/cosmetics/a828ec284dd5c1432cf698c8089478c3/v2/background.png"
+          alt="Fortnite Festive Lobby track"
+          class="music-cover"
+        />
+      </figure>
+      <audio
+        id="festive"
+        src="./Fortnite_Festive Lobby_Music _Season -7.mp3"
+        controls
+        loop
+      ></audio>
+    </div>
+    <h1 class="countdown__header">New Year Countdown</h1>
+    <div class="countdown__wrapper">
+      <div id="countdown" class="countdown">
+        <div class="time">
+          <h2 id="days">00</h2>
+          <small class="time__format">Days</small>
+        </div>
+      </div>
+      <div id="countdown" class="countdown">
+        <div class="time">
+          <h2 id="hours">00</h2>
+          <small class="time__format">Hours</small>
+        </div>
+      </div>
+      <div id="countdown" class="countdown">
+        <div class="time">
+          <h2 id="minutes">00</h2>
+          <small class="time__format">Minutes</small>
+        </div>
+      </div>
+      <div id="countdown" class="countdown">
+        <div class="time">
+          <h2 id="seconds">00</h2>
+          <small class="time__format">Seconds</small>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
